@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" modified="2023-08-02T10:58:37.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="yvC8Dv9Ro-dFEy6OL8KG" version="21.6.6" type="github">
+  <diagram name="Page-1" id="EALyW0HfUWh1p2dWg3um">
+    <mxGraphModel dx="951" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-1" value="&lt;h1&gt;Mode opératoire de dépannage MOM&lt;/h1&gt;&lt;div&gt;Raison de blocage:&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, Calibri, Thonburi, Arial, Verdana, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;; font-size: 1px; background-color: rgb(255, 255, 255);&quot; class=&quot;ewa-rteLine&quot;&gt;&amp;nbsp;FBDC_DIAG_NOT_ENGAGEMENT_TRACKINGID_NOTFOUND,&lt;/div&gt;&lt;div style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, Calibri, Thonburi, Arial, Verdana, sans-serif, &amp;quot;Mongolian Baiti&amp;quot;, &amp;quot;Microsoft Yi Baiti&amp;quot;, &amp;quot;Javanese Text&amp;quot;; font-size: 1px; background-color: rgb(255, 255, 255);&quot; class=&quot;ewa-rteLine&quot;&gt;&lt;span style=&quot;font-family: Calibri; font-size: 11pt;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-family: Calibri; font-size: 11pt;&quot;&gt;NOTENGAGEMENT : trackingId not found&lt;/span&gt;&lt;span style=&quot;font-family: Calibri; font-size: 11pt;&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="470" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-2" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.828;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0WwBbSKkv-XbToHQlhDI-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="399" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-4" value="PostponedComment:&lt;br&gt;NOTENGAGEMENT : trackingId not found" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0WwBbSKkv-XbToHQlhDI-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="300" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-10" value="&lt;div style=&quot;font-family: Calibri; text-align: start; background-color: rgb(255, 255, 255); font-size: 11px;&quot; class=&quot;ewa-rteLine&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;1. Vérifier si données bloquées sur 1ère OP (DataAvailable à True)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Calibri; text-align: start; background-color: rgb(255, 255, 255); font-size: 11px;&quot; class=&quot;ewa-rteLine&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;2. Si ce n&#39;est pas le cas, TrackingID à créer avec onglet DEPANNAGE (préciser type)&lt;/font&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="0WwBbSKkv-XbToHQlhDI-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574.4000000000002" y="429.97000000000014" as="targetPoint" />
+            <mxPoint x="479.99925465838515" y="374.4134782608695" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-18" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0WwBbSKkv-XbToHQlhDI-17" vertex="1" connectable="0">
+          <mxGeometry x="0.2557" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0WwBbSKkv-XbToHQlhDI-11" target="0WwBbSKkv-XbToHQlhDI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-11" value="blocage &lt;br&gt;des données sur &lt;br&gt;1ère OP" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="340" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.76" y="300" as="sourcePoint" />
+            <mxPoint x="399.76" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-19" value="La pièce est coincé sur l&#39;OP init part" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-20" value="Sur l&#39;OP &lt;br&gt;dépannage:&lt;br&gt;OP init&lt;br&gt;Type 0&lt;br&gt;Tracking_Id&lt;br&gt;Supplier_Id&lt;br&gt;Component_Id&lt;br&gt;Resultat OK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="810" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0WwBbSKkv-XbToHQlhDI-21" target="db9tRwMAdbG4arXx4SIP-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="510" />
+              <mxPoint x="540" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-21" value="1.Piocher la BDD pour retrouver la Pièce&lt;br&gt;2.Déblocage depuis l&#39;OP de Dépannage" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="430" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0WwBbSKkv-XbToHQlhDI-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0WwBbSKkv-XbToHQlhDI-23" value="Supplier_Id&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Component_Id&lt;br&gt;pareil?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="720" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="db9tRwMAdbG4arXx4SIP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-1" value="La pièce se trouve &lt;br&gt;sur la BDD &lt;br&gt;(en statut declaré)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="db9tRwMAdbG4arXx4SIP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="560" as="sourcePoint" />
+            <mxPoint x="400" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="db9tRwMAdbG4arXx4SIP-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db9tRwMAdbG4arXx4SIP-6" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;L&#39;Identifiant en doublon&lt;/b&gt;&lt;br&gt;&lt;/font&gt;Comparaison les information supplémentaires&lt;br&gt;(ComponentId et SupplierId, etc.)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="630" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
